@@ -1,7 +1,5 @@
-using System;
-
 namespace Catalog.Entities{
-    public class Item{
+    public record Item{
         public Guid Id{get; init;}
         public string Name {get; init;}
         public float Price {get; init;}
